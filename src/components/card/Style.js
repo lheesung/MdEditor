@@ -12,7 +12,7 @@ export const  container = styled.div`
 `
 
 
-export const imgBox = styled.div`
+export const imgBox = styled.img`
     width: 317px;
     height: 317px;
     border-top-right-radius: 10px;
@@ -27,6 +27,7 @@ export const box = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 `
 
 export const subTxt = styled.span`
@@ -39,6 +40,11 @@ export const footer = styled.div`
     height: 64px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    background-color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 `
 
 export const btn = styled.button`
@@ -48,4 +54,11 @@ export const btn = styled.button`
     color: black;
     background-color: white;
     border: none;
+`
+
+export const textBox = styled.div`
+    width: 282px;
+    height:100%;
+    margin: 33px 35px 0 35px;
+    background-color: #1A1B21;
 `
